@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-pathway-portfolio-project/static/css/main.9afd6b98.css",
+    "main.js": "/react-pathway-portfolio-project/static/js/main.bb059049.js",
+    "static/js/787.786e700a.chunk.js": "/react-pathway-portfolio-project/static/js/787.786e700a.chunk.js",
+    "static/media/smithy.jpeg": "/react-pathway-portfolio-project/static/media/smithy.0863896507e3860df4ad.jpeg",
+    "static/media/geno.png": "/react-pathway-portfolio-project/static/media/geno.7ee40c381c6d45146d1e.png",
+    "static/media/profile.jpeg": "/react-pathway-portfolio-project/static/media/profile.fce2dce4e8fd38e84127.jpeg",
+    "static/media/peach.jpeg": "/react-pathway-portfolio-project/static/media/peach.10f4b2aa2f53d0999841.jpeg",
+    "static/media/mario.jpeg": "/react-pathway-portfolio-project/static/media/mario.1e7928e3d044ab50c385.jpeg",
+    "index.html": "/react-pathway-portfolio-project/index.html",
+    "main.9afd6b98.css.map": "/react-pathway-portfolio-project/static/css/main.9afd6b98.css.map",
+    "main.bb059049.js.map": "/react-pathway-portfolio-project/static/js/main.bb059049.js.map",
+    "787.786e700a.chunk.js.map": "/react-pathway-portfolio-project/static/js/787.786e700a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9afd6b98.css",
+    "static/js/main.bb059049.js"
+  ]
+}
