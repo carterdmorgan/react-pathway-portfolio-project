@@ -1,0 +1,16 @@
+.nav-content ul {
+  display: inline-block;
+  cursor: default;
+
+  & li {
+    font-size: 18px;
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+
+    &:hover {
+      cursor: pointer;
+      color: #FED766;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.header {
+  background-color: var(--primary);
+  height: 10vh;
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.name {
+  padding-left: 30px;
+  line-height: 48px;
+  font-size: 36px;
+}

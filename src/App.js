@@ -1,23 +1,49 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Portfolio from './components/Portfolio/Portfolio';
+import Resume from './components/Resume/Resume';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import { useState } from 'react'
 
 function App() {
+  const [selectedNav, setSelectedNav] = useState('about');
+
+  function renderDifferentNavSections(nav) {
+    switch (nav) {
+      case 'about':
+        return (
+          <About className="nav-section"></About> 
+        );
+      case 'portfolio':
+        return (
+          <Portfolio className="nav-section"></Portfolio>
+        )
+      case 'resume':
+        return (
+          <Resume className="nav-section"></Resume>
+        )
+      case 'contact':
+        return (
+          <Contact className="nav-section"></Contact>
+        )
+      default:
+        return (
+          <About className="nav-section"></About> 
+        );
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header
+        setSelectedNav={setSelectedNav}>
+      </Header>
+      <div className="app-body">
+        {renderDifferentNavSections(selectedNav)}
+      </div>
+      <Footer></Footer>
     </div>
   );
 }
